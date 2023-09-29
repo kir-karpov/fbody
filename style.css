@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+background: var(--background-1, linear-gradient(180deg, #EBEBE9 0%, #EDEDEB 100%));
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 181.818px;
+height: 100px;
+flex-shrink: 0;
+padding-left: 230px;
+    
+}
+.header-text {
+  color: var(--buttons-text-color-default, #292929);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    /* padding-left: 15px; /* Добавляем отступ влево */
+/* padding-right: 15px; */ 
+letter-spacing: 2px;
+}
+.nav {
+  padding-left: 475px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav li {
+white-space: nowrap;
+    padding: 11px 32px 11px 32px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.body {
+  width: 990px;
+height: 990px;
+flex-shrink: 0;
+}
+
+body {
+background: var(--background-1, linear-gradient(180deg, #EBEBE9 0%, #EDEDEB 100%));
+}
+
+
+.col-md-5 {
+  position: absolute;
+  top: -15px;
+  z-index: 10;
+  left: 38px;
+} 
+.col-md-6 {
+  position: absolute;
+  top: 260px;
+  left: 485px;
+}
+
+.section-body {
+    display: flex;
+    justify-content: space-evenly; /* Располагаем контейнер по центру по горизонтали */
+    align-items: center; /* Располагаем контейнер по центру по вертикали */
+    height: 100vh; /* Заполняем всю высоту видимой области экрана */
+    padding-left: 728px;
+    padding-top: 12px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Размещаем тексты вертикально */
+    align-items: center; /* Располагаем тексты по центру по горизонтали */
+    gap: 5px; /* Пространство между текстами */
+}
+
+.text {
+text-align: left; /* Выравниваем текст по центру */
+color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2px;
+width: 587px;
+z-index: 10;
+
+
+}
+
+.read-button {
+    display: flex;
+    height: 45px;
+    padding: 11px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+
+.read-button-text {
+color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2px;
+    padding-right: 313px;
+    cursor: pointer;
+    padding-bottom: 38px;
+}
