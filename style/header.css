@@ -1,0 +1,44 @@
+/* header.css */
+.header {
+  background: var(--background-1, linear-gradient(180deg, #ebebe9 0%, #ededeb 100%));
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 181.818px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.header-text {
+  color: var(--buttons-text-color-default, #292929);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  white-space: nowrap;
+  padding: 11px 32px 11px 32px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
