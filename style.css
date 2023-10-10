@@ -142,30 +142,3 @@ body {
   z-index: 0;
 }
 
-/* .main__title {
-  position:relative;
-  top:100px;
-  padding-left: 220px;  
-  font-size: 160px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 160px;
-  letter-spacing: 8px;
-  color: #cfcfcd;
-  z-index: 0;
-}
-
-.main__text {
-  position: relative;
-  min-width: 590px;
-  margin: 0 0 14px auto;
-  padding-right: 20px;
-  font-style: 28px;
-  z-index: 2  ;
-
-}
-
-.main__link {
-  display: block;
-  padding: 11px 32px;
-} */
